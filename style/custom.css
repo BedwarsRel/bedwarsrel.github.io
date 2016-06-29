@@ -5,3 +5,24 @@ nav {
 nav .brand-logo {
   padding: 0 20px;
 }
+
+#preloader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fefefe;
+  z-index: 99;
+  height: 100%;
+ }
+
+.preloader-wrapper  {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+ }
+ 
+.dropdown-content li > a {
+  color: rgb(156, 33, 39);
+}
